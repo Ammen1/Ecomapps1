@@ -1,0 +1,104 @@
+
+
+body{
+ /* background-image: linear-gradient(toright,#009961,#00cc81); */
+ background-image: linear-gradient(to bottom right, #009961 , #6dd7b1);
+ font-family: work sans 'sans-serif';
+ font-size: 16px;
+ font-weight: 500;
+}
+.header{
+    text-align: center;
+    font-size: 2rem;
+    color: #009961;
+    font-weight: 800;
+}
+.form-wraper{
+    margin: 30px auto;
+    width: 700px;
+    height: fit-content;
+    background: #fff;
+    padding: 50px;
+    border-radius:7px;
+}
+.contact-info{
+    display: flex;
+}
+.Form-flex{
+    display: block;
+}
+.lan{
+    float: right;
+    margin-right: 10px;
+}
+.btn{
+   background-color: #009961;
+   color: #fff;
+   border: solid 2px #009961; 
+   border-radius: 8px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #009961;
+    border-color: #009961;
+}
+.seedS{
+    position: relative;
+}
+.imageEgVeg{
+    position: absolute;
+    width:180px;
+    height:150px;
+    left:60%;
+    bottom:-10px;
+    border-radius: 10%;
+  
+}
+.vImg{
+    width:100%;
+    height:100%;
+    border-radius: 10%;
+    display: none;
+    background-size: cover;
+    background-position: center;
+    border: solid thin black;
+}
+@media(max-width:990px){
+    .imageEgVeg{
+        position: absolute;
+        width:130px;
+        height:130px;
+        left:30%;
+        bottom:-10px;
+        border-radius: 10%;
+    }
+}
+
+.carrotV{
+    background-image: url(/assets/img/carrotV.jpg);
+}
+
+ .swissV{
+    background-image: url(/assets/img/swiisv.jpg);
+ }
+ .OnionV{
+    background-image: url(/assets/img/onionv.jpg);
+ }
+.CabbageV{
+    background-image: url(/assets/img/cabbagev.jpg);
+}
+ .Beet-RootV{
+    background-image: url(/assets/img/beetv.jpg);
+ }
+
+.vin{
+    background-image: url(/assets/img/vinv1.jpg);
+}
+.vout{
+    background-image: url(/assets/img/voutV.jpg);
+}
+ 
+.onHover{
+    display: block;;
+}
+
